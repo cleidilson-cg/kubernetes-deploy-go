@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_kubernetes_deploy_go_1693425380718-pr-trigger-input-set
+  identifier: Build_kubernetes_deploy_go_1693425380718prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_kubernetes_deploy_go_1693425380718
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
